@@ -87,7 +87,7 @@ function fucti9() {
   allwind9.showModal();
 }
 function fuctsy2() {
-  window.location = 'https://www.youtube.com/'
+  window.location = 'https://arturw15.github.io/lastone/'
 }
 function fuctsy1() {
   allwindh.showModal();
