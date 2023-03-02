@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Rowdies&family=Shantell+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Crimson+Text:ital@1&family=Dancing+Script&family=Genos:ital@1&family=Lobster&family=Rajdhani&family=Rowdies&family=Shantell+Sans:ital@0;1&family=Smokum&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url(or215615.jpg);
+  background-position: center center;
+  /* определяет размер изображения на странице */
+  background-size: cover;
+  /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+  background-repeat: no-repeat;
+  /* cвойство определяет, будет ли фоновое изображение прокручиваться
+  вместе с остальной частью страницы или будет фиксированным */
+  background-attachment: fixed;
+
+}
+.parag{
+  max-width: 67%;
+  position: absolute;
+  left: 19%;
+  font-size: 1.7em;
+  font-weight: 500;
+  font-family: 'Rowdies', cursive;
+
+}
+
+
+#symbolheart {
+  height: 15px;
+}
+
+#symbolheart2 {
+  height: 15px;
+  position: absolute;
+  right: 0px;
+}
+
+
+.hsize {
+  height: 90px;
+}
+
+/*.bigd {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+} */
+
+.heart {
+  /*background-image: url(https://spng.pngfind.com/pngs/s/69-699360_free-vector-graphic-heart-symbol-hd-png-download.png);*/
+  height: 5%;
+  display: inline-block;
+  width: 5%;
+  cursor: pointer;
+
+}
+
+#h1{
+  position: absolute;
+  left: 26%;
+  top: 25%;
+}
+
+#h2 {
+  position: absolute;
+  left: 46%;
+  top: 25%;
+}
+
+#h3{
+  position: absolute;
+  left: 66%;
+  top: 25%;
+}
+
+
+#h4{
+  position: absolute;
+  left: 26%;
+  top: 45%;
+}
+
+#h5 {
+  position: absolute;
+  left: 46%;
+  top: 45%;
+}
+
+#h6{
+  position: absolute;
+  left: 66%;
+  top: 45%;
+}
+
+
+#h7{
+  position: absolute;
+  left: 26%;
+  top: 65%;
+}
+
+#h8{
+  position: absolute;
+  left: 46%;
+  top: 65%;
+}
+
+#h9{
+  position: absolute;
+  left: 66%;
+  top: 65%;
+}
+
+
+
+
+.allwind {
+  background-color:#d62d60;
+  margin: 20% auto;
+  padding: 5%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  font-size: 2.5em;
+}
+.allwind::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}
+.allwind[open] {
+    animation: zoom 0.25s linear forwards;
+}
+#buttonok {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+#buttonok:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+
+.allwind2 {
+  background-color:#d62d60;
+  margin: 20% auto;
+  padding: 5%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  font-size: 1.8em;
+}
+.allwind2::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}
+.allwind2[open] {
+    animation: zoom 0.25s linear forwards;
+}
+#buttonok2 {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#buttonok2:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+
+
+.allwind3 {
+  background-color:#d62d60;
+  margin: 20% auto;
+  padding: 5%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 'Dancing Script', cursive;
+
+}
+.allwind3::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}
+.allwind3[open] {
+    animation: zoom 0.25s linear forwards;
+}
+#buttonok3 {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#buttonok3:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+
+
+
+.allwind4 {
+  background-color:#d62d60;
+  margin: 20% auto;
+  margin-top: 16%;
+  padding: 5%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  font-size: 1.5em;
+  word-spacing: 0.15em;
+  line-height: 1.3em;
+}
+.allwind4::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}
+.allwind4[open] {
+    animation: zoom 0.25s linear forwards;
+}
+#buttonok4 {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#buttonok4:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+
+
+
+.allwind5 {
+  background-color:#d62d60;
+  margin: 20% auto;
+  padding: 5%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  font-size: 1.4em;
+  word-spacing: 0.18em;
+
+}
+.allwind5[open] {
+    animation: zoom 0.25s linear forwards;
+}
+.allwind5::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}
+#buttonok5 {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#buttonok5:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+
+
+.allwind6 {
+  background-color:#d62d60;
+  margin: 20% auto;
+  padding: 5%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 0.35em;
+  word-spacing: 0.4em;
+  line-height: 1.4em;
+}
+.allwind6[open] {
+    animation: zoom 0.25s linear forwards;
+}
+.allwind6::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}
+#buttonok6 {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#buttonok6:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+
+
+
+.allwind7 {
+  background-color:#d62d60;
+  margin: 20% auto;
+  padding: 5%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 0.15em;
+  word-spacing: 0.18em;
+  line-height: 1.4em;
+  font-size: 1em;
+}
+.allwind7[open] {
+    animation: zoom 0.25s linear forwards;
+}
+.allwind7::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}
+#buttonok7 {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#buttonok7:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+#smthforme {
+  font-size: 1.2em;
+  font-weight: 530;
+}
+#sm1 {
+  font-weight: 800;
+  opacity: 0.4;
+}
+
+.allwind8 {
+  background-color:#d62d60;
+  margin: 20% auto;
+  margin-top: 13.5%;
+  padding: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  line-height: 1.3em;
+  font-size: 1.2em;
+}
+.allwind8::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}.allwind8[open] {
+    animation: zoom 0.25s linear forwards;
+}
+#buttonok8 {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+
+}
+#buttonok8:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+
+#cardbtn {
+  padding: 2.5px;
+  background-color: #ebd938;
+  transition: 0.2s;
+  border-radius: 3px;
+  margin: 6px;
+  padding: 3px;
+}
+#cardbtn:hover{
+  padding: 3px;
+  background-color: #ebaf38;
+  border-radius: 7px;
+}
+.allwind9 {
+  background-color:#d62d60;
+  margin: 20% auto;
+  padding: 5%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  word-spacing: 0.16em;
+  line-height: 1.55em;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.allwind9[open] {
+    animation: zoom 0.25s linear forwards;
+}
+.allwind9::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}
+#buttonok9 {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#buttonok9:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+
+.allwindh {
+  background-color:#d62d60;
+  margin: 20% auto;
+  padding: 5%;
+  padding-bottom: 3%;
+  border: 2px solid yellow;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  word-spacing: 0.17em;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+.allwindh::backdrop {
+  background-color: #252525;
+  opacity: 0.8;
+}.allwindh[open] {
+    animation: zoom 0.25s linear forwards;
+}
+#buttonokh {
+  background-color: #000591;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 73px;
+  height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#buttonokh:hover {
+  background-color: #00d5ff;
+  color: black;
+  width: 83px;
+}
+#init {
+  font-size: 0.6em;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+button {
+  border-radius: 7px;
+}
+
+
+dialog {
+  border-radius: 15px;
+}
+label {
+  position: relative;
+  left: -9%;
+}
+
+.paramforinp {
+  height: 1.5em;
+  background-color: #fcf9cf;
+  color: #9542f5;
+  width: 35%;
+}
+.otherinp{
+  width: 20%;
+  position: relative;
+  left: -7.5%;
+}
+.otherlab{
+  left: -11%;
+}
+#simtexti {
+  color: #39e60b;
+  font-weight: 700;
+  display: none;
+  position: relative;
+
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0.2);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+}
